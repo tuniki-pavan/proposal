@@ -55,13 +55,6 @@
   margin: 10px;
 }
 
-.editorContainer {
-  border: 1px solid #ccc;
-  padding: 10px;
-  min-height: 200px;
-  cursor: text;
-}
-
 textarea {
   width: 100%;
   padding: 10px;
@@ -73,10 +66,43 @@ button {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  margin-top: 10px;
 }
 
 .result {
   font-size: 18px;
   margin-top: 20px;
+}
+.result.success {
+  color: green;
+}
+.result.error {
+  color: red;
+}
+.result.warning {
+  color: orange;
+}
+.result.info {
+  color: blue;
+}
+.result .error-message {
+  color: red;
+  font-weight: bold;
+}
+.result .warning-message {
+  color: orange;
+  font-weight: bold;
+}
+.result .info-message {
+  color: blue;
+  font-weight: bold;
+}
+.result .success-message {
+  color: green;
+  font-weight: bold;
+}
+.result .error-message,
+.result .warning-message,
+.result .info-message,
+.result .success-message {
+  margin-top: 10px;
 }
